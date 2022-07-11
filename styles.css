@@ -13,6 +13,7 @@ body {
   font-family: 'Red Hat Display', sans-serif;
   display: flex;
   justify-content: center;
+  padding: 5%;
 }
 
 img {
@@ -34,7 +35,10 @@ td a:hover{
   text-decoration: none;
 }
 
-
+td img {
+  height: 48px;
+  width: 48px;
+}
 
 .attribution {
   font-size: 11px;
@@ -118,6 +122,7 @@ td a:hover{
 .name_price {
   text-align: left;
   font-weight: 700;
+  margin: 25px;
 }
 
 .name_price p {
