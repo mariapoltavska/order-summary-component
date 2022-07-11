@@ -80,7 +80,7 @@ td a:hover{
   padding-bottom: 8%;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 500px) {
   body {
     display: flex;
     justify-content: center;
@@ -90,10 +90,13 @@ td a:hover{
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 499px) {
   .container {
     width: 90%;
-    margin-right: 0;
+    margin: 25px;
+  }
+  .item {
+    size: 14px;
   }
 
 }
