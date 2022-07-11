@@ -21,9 +21,11 @@ img {
   width: 100%;
 }
 
-h2 {
+h1 {
   font-weight: 900;
+  margin-top: 50px;
   margin-bottom: 0;
+  color: hsl(223, 47%, 23%);
 }
 
 table {
@@ -110,10 +112,12 @@ td img {
    margin: 0 auto;
    color: hsl(224, 23%, 55%);
    padding: 25px 0;
+   line-height: 1.8;
 }
 
 .item {
   border-radius: 10px;
+  color: hsl(223, 47%, 23%);
   background-color: hsl(225, 100%, 98%);
   width: 80%;
    margin: 0 auto;
