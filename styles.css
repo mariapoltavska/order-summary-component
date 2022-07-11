@@ -1,0 +1,123 @@
+a {
+  font-weight: 700;
+}
+
+body {
+  text-align: center;
+  background-attachment: fixed;
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-color: hsl(225, 100%, 94%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'Red Hat Display', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}
+
+h2 {
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+table {
+  padding: 10px;
+}
+
+td a:hover{
+  color: hsl(244.51, 55.19%, 68.43%);
+  text-decoration: none;
+}
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+.button {
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 0;
+  margin-bottom: 30px;
+  text-decoration: none;
+  display: inline-block;
+  width: 80%;
+}
+
+.button:hover {
+  background-color: hsl(244.51, 55.19%, 68.43%);
+}
+
+.cancel-button {
+  color: hsl(224, 23%, 55%);
+  margin: 40px;
+  text-decoration: none;
+}
+
+.cancel-button:hover{
+  color: black;
+}
+
+.container {
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  margin-top: 5%;
+  padding-bottom: 3%;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    display: flex;
+    justify-content: center;
+  }
+  .container {
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 90%;
+    margin-right: 0;
+  }
+
+}
+
+.description {
+  width: 80%;
+   margin: 0 auto;
+   color: hsl(224, 23%, 55%);
+   padding: 25px 0;
+}
+
+.item {
+  border-radius: 10px;
+  background-color: hsl(225, 100%, 98%);
+  width: 80%;
+   margin: 0 auto;
+}
+
+.name_price {
+  text-align: left;
+  font-weight: 700;
+}
+
+.name_price p {
+  font-weight: 500;
+  margin: 0;
+  color: hsl(224, 23%, 55%);
+}
